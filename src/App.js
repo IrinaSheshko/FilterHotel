@@ -1,25 +1,45 @@
-import logo from './logo.svg';
-import './App.css';
+import { useState } from "react";
+import { data } from "./data";
+import HotelList from "./HotelList";
+import "./App.css";
 
 function App() {
+  const [hotels, setHotels] = useState(data);
+  const [searchTerm, setSearchTerm] = useState("");
+
+  const removeHotel = (id) => {
+    setHotels((prev) => prev.filter((item) => item.id !== id));
+  };
+
+  // Фильтрация отелей по поиску
+  const filteredHotels = hotels.filter((item) =>
+    item.hotelName.toLowerCase().includes(searchTerm.toLowerCase())
+  );
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div className="container">
+        <h1>NYC TOP {hotels.length} HOTELS</h1>
+        <input
+          type="text"
+          placeholder="Search hotels..."
+          value={searchTerm}
+          onChange={(e) => setSearchTerm(e.target.value)}
+          className="search-input"
+        />
+      </div>
+
+      <HotelList hotels={filteredHotels} removeHotel={removeHotel} />
+
+      <div className="container">
+        <button className="btn clear-btn" onClick={() => setHotels([])}>
+          Clear All
+        </button>
+      </div>
     </div>
   );
 }
 
 export default App;
+
+
