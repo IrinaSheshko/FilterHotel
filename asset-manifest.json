@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/nyc-hotels-react/static/css/main.18471409.css",
-    "main.js": "/nyc-hotels-react/static/js/main.2e411861.js",
-    "static/js/787.862cb22d.chunk.js": "/nyc-hotels-react/static/js/787.862cb22d.chunk.js",
-    "index.html": "/nyc-hotels-react/index.html",
-    "main.18471409.css.map": "/nyc-hotels-react/static/css/main.18471409.css.map",
-    "main.2e411861.js.map": "/nyc-hotels-react/static/js/main.2e411861.js.map",
-    "787.862cb22d.chunk.js.map": "/nyc-hotels-react/static/js/787.862cb22d.chunk.js.map"
+    "main.css": "/IrinaSheshko/FilterHotel.git/static/css/main.18471409.css",
+    "main.js": "/IrinaSheshko/FilterHotel.git/static/js/main.3f7fc2c9.js",
+    "static/js/787.862cb22d.chunk.js": "/IrinaSheshko/FilterHotel.git/static/js/787.862cb22d.chunk.js",
+    "index.html": "/IrinaSheshko/FilterHotel.git/index.html",
+    "main.18471409.css.map": "/IrinaSheshko/FilterHotel.git/static/css/main.18471409.css.map",
+    "main.3f7fc2c9.js.map": "/IrinaSheshko/FilterHotel.git/static/js/main.3f7fc2c9.js.map",
+    "787.862cb22d.chunk.js.map": "/IrinaSheshko/FilterHotel.git/static/js/787.862cb22d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18471409.css",
-    "static/js/main.2e411861.js"
+    "static/js/main.3f7fc2c9.js"
   ]
 }
