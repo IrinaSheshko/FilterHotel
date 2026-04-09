@@ -25,4 +25,4 @@
 ### 📖 Как запустить проект локально:
 1. Склонируйте репозиторий:
    ```bash
-   git clone [https://github.com/IrinaSheshko/FilterHotel/]
+   git clone https://github.com/IrinaSheshko/FilterHotel.git
