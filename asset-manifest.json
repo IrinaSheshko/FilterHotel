@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/IrinaSheshko/FilterHotel/static/css/main.18471409.css",
-    "main.js": "/IrinaSheshko/FilterHotel/static/js/main.e36a6318.js",
-    "static/js/787.862cb22d.chunk.js": "/IrinaSheshko/FilterHotel/static/js/787.862cb22d.chunk.js",
-    "index.html": "/IrinaSheshko/FilterHotel/index.html",
-    "main.18471409.css.map": "/IrinaSheshko/FilterHotel/static/css/main.18471409.css.map",
-    "main.e36a6318.js.map": "/IrinaSheshko/FilterHotel/static/js/main.e36a6318.js.map",
-    "787.862cb22d.chunk.js.map": "/IrinaSheshko/FilterHotel/static/js/787.862cb22d.chunk.js.map"
+    "main.css": "/FilterHotel/static/css/main.18471409.css",
+    "main.js": "/FilterHotel/static/js/main.901ff971.js",
+    "static/js/787.862cb22d.chunk.js": "/FilterHotel/static/js/787.862cb22d.chunk.js",
+    "index.html": "/FilterHotel/index.html",
+    "main.18471409.css.map": "/FilterHotel/static/css/main.18471409.css.map",
+    "main.901ff971.js.map": "/FilterHotel/static/js/main.901ff971.js.map",
+    "787.862cb22d.chunk.js.map": "/FilterHotel/static/js/787.862cb22d.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.18471409.css",
-    "static/js/main.e36a6318.js"
+    "static/js/main.901ff971.js"
   ]
 }
